@@ -1,44 +1,31 @@
 #include <stdio.h>
-//Type 2 numbers (x and y) and categorize if DECREASING or INCREASING.
-//Stop the program when x and y are igual.
+#include <stdlib.h>
+
+
 
 int main()
 {
-  int x, y;
+    int x, y;
 
-  printf("Type 2 numbers: \n");
-  scanf("%d", &x);
-  scanf("%d", &y);
-
-  if (x > y) {
-        printf("DECREASING!\n");
-
-      }
-      else {
-         printf("INCREASING!\n");
-      }
+    printf("Enter 2 numbers:\n");
+    scanf("%d", &x);
+    scanf("%d", &y);
 
 
-  while (x != y ) {
-      printf("Type other 2 numbers: \n");
-      scanf("%d", &x);
-      scanf("%d", &y);
+    while (x != y) {
 
-   if (x > y) {
-        printf("DECREASING!\n");
-
-      }
-      else if (x > y) {
-         printf("INCREASING!\n");
-      }
-      else {
-
-      }
+        if (x < y) {
+        printf("Increasing\n");
+    } else if (x > y) {
+        printf("Decreasing\n");
+    }
+        printf("Enter more 2 numbers:\n");
+        scanf("%d", &x);
+        scanf("%d", &y);
 
     }
 
 
 
     return 0;
-
 }
