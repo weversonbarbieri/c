@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1704747535 source:c:\c language projects\c language projects\c\matrix\general_matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+
