@@ -1,2 +1,2 @@
 # C
- Algorithms created fromthe course " Algoritmos e Lógica de Programação - O Curso COMPLETO"
+ Algorithms created from the course " Algoritmos e Lógica de Programação - O Curso COMPLETO"
