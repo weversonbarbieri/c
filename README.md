@@ -1,4 +1,4 @@
-# Python Programming Language Course
+# C Programming Language Course
 
 This repository contains the code exercises from the first programming language course I took. The exercises are based on the course "Algoritmos e Lógica de Programação - O Curso COMPLETO". I completed all the exercises without watching the solution videos.
 
@@ -55,7 +55,3 @@ The repository is organized into multiple directories, each representing a diffe
     ```sh
     python script_name.py
     ```
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
